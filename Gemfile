@@ -8,7 +8,6 @@ gem 'rails', '4.1.0'
 group :development, :test do
   gem 'sqlite3'
  end
-gem 'pg', group: :production
 
 # Use postgresql as the database for production
 group :production do
@@ -40,6 +39,8 @@ gem 'sdoc', '0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+gem 'devise', '3.4.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
